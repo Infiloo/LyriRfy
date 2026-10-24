@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "lyrirfy",
+	"version": "${version}",
+	"name": "LyriRfy",
+	"description": "Live Spotify lyrics in Minecraft: synced 3D world lyrics, floating 2D lyrics and a now-playing HUD with artwork and progress.",
+	"authors": [
+		"LyriRfy"
+	],
+	"contact": {
+		"homepage": "https://gravatar.me/infiloo"
+	},
+	"license": "MIT",
+	"icon": "assets/lyrirfy/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.lyrirfy.LyriRfy"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
